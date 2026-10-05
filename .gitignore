@@ -1,0 +1,29 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+build/
+
+# Java / Maven
+/target/
+**/target/
+
+# H2 veritabanı dosyaları
+data/
+**/data/*.db
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JVM çökme / log dosyaları
+*.log
+hs_err_pid*
+replay_pid*

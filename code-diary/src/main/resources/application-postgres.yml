@@ -1,0 +1,15 @@
+# PostgreSQL profili: SPRING_PROFILES_ACTIVE=postgres (Docker Compose bunu kullanır)
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/commitlog}
+    username: ${DATABASE_USERNAME:commitlog}
+    password: ${DATABASE_PASSWORD:commitlog}
+    driver-class-name: org.postgresql.Driver
+
+  h2:
+    console:
+      enabled: false
+
+  devtools:
+    restart:
+      enabled: false

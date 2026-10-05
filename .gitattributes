@@ -1,0 +1,11 @@
+# Metin dosyaları repoda her zaman LF satır sonuyla saklanır (Windows'ta çalışırken de)
+* text=auto eol=lf
+
+# Windows betikleri CRLF kalmalı
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# İkili dosyalar
+*.png binary
+*.jpg binary
+*.ico binary

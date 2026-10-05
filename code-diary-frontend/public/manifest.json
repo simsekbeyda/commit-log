@@ -1,0 +1,15 @@
+{
+  "short_name": "commit.log",
+  "name": "commit.log — AI destekli yazılımcı günlüğü",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6d4aff",
+  "background_color": "#0f1117"
+}
